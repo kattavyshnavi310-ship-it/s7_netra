@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>TML5 MEDIA EXAMPLE</title>
+    <style>
+        img, video{
+            width: 400px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h2>1.Normal Image</h2>
+    <img src="https://WWW.W3schools.com/html/img_china.jpg"
+    alt="city view"
+    width="400"
+    height="300"
+    loading="lazy">
+    <h2>2.Responsive image using pictures</h2>
+    <picture>
+        <source media="(max-width: 1000px)"
+        srcset="https://WWW.W3schools.com/html/img_china.jpg">
+        <img src ="https://WWW.W3schools.com/html/img_china.jpg"
+        alt="Responsive image"
+        width="400">
+    </picture>
+    <h2>3. audio</h2>
+<audio controls loop preload="metadata">
+    <source src="https://WWW.W3schools.com/html/horse.mp3"
+    type="audio/mpeg">
+    <video width="400" controls
+    source src="https://WWW.W3schools.com/html/img_china.jpg">
+
+  </audio>  
+  <h2>4. Video</h2>
+  <video width="400" controls>
+    poster=https://WWW.W3schools.com/html/img_china.jpg
+    preload="metadata">
+    <source src="https://WWW.W3schools.com/html/mov_bbb.mp4" 
+    type="video/mp4">
+    </video>
+    <h2>5. autoplay</h2>
+    
+    
+    
+</body>
+
+
+
+
+
+</html>
